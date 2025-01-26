@@ -1,3 +1,4 @@
+// https://www.acmicpc.net/problem/2285
 const filePath = process.platform === 'linux' ? '/dev/stdin' : 'input.txt';
 const [n, ...input] = require('fs').readFileSync(filePath, 'utf-8').trim().split('\n').map(v => v.split(' ').map(Number));
 // 중앙값의 값을 알기위해 졍렬
